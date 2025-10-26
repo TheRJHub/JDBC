@@ -8,7 +8,7 @@ public static Connection postgres() {
 	Connection con=null;
 	try {
         Class.forName("org.postgresql.Driver");
-        con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","kiit");
+        con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","YourPassword");
 
 		}catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -23,7 +23,7 @@ public static Connection mysql() {
 	Connection con=null;
 	try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=rajat123");
+        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=YourPassword");
 
 		}catch (SQLException e) {
 			// TODO Auto-generated catch block
