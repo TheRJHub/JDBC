@@ -23,7 +23,7 @@ public static Connection mysql() {
 	Connection con=null;
 	try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=YourPassword");
+        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=Your_Password");
 
 		}catch (SQLException e) {
 			// TODO Auto-generated catch block
