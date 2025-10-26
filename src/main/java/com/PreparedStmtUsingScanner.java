@@ -15,7 +15,7 @@ public class PreparedStmtUsingScanner {
 			//1: Load Driver Class
 //	        Class.forName("org.postgresql.Driver");
 	        //2: get Connection
-//	        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","kiit");
+//	        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","YourPassword");
 	        //Query
 	        String query="insert into student values (?,?,?)";
 	        //3:create stmt

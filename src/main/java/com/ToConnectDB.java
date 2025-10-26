@@ -10,7 +10,7 @@ public class ToConnectDB {
 	public static void main(String[] args) {
 		try {
         Class.forName("org.postgresql.Driver");
-        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","kiit");
+        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5431/college","postgres","YourPassword");
         Statement stmt=con.createStatement();
         //String query="insert into student values (2,'A',76)";
         String query="select * from student";
